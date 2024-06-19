@@ -1,0 +1,35 @@
+html, body {
+    background-color: lightpink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    min-height: 100vh; /* Ensure the elements take up at least the full viewport height */
+}
+
+.registration-form {
+    border: 2px solid black;
+    padding: 20px;
+    background-color: rgb(214, 29, 131);
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.registration-form img {
+    max-width: 100%;
+    margin: 10px;
+    height: auto; /* Maintain aspect ratio */
+}
+
+div > img {
+    height: auto;
+    margin: 10px;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 400px; /* This should be the same as the max-width of .registration-form */
+    margin: 0 auto;
+}
